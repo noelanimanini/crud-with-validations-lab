@@ -27,15 +27,15 @@ Songs have the following attributes and limitations:
 
 Use the `resource` generator, **not** the `scaffold` generator
 
-1.  Define a model with validations for `Song`.
+X 1.  Define a model with validations for `Song`.
 
-2.  Define all RESTful routes for songs.
+X 2.  Define all RESTful routes for songs.
 
-3.  Render the list of songs in an HTML table.
+X 3.  Render the list of songs in an HTML table.
 
-4.  Build views that connect to each other using route helpers. 
+X 4.  Build views that connect to each other using route helpers. 
 
-5.  Use `form_for` to build forms with pre-fill and error list features. (_Hint:
+X 5.  Use `form_for` to build forms with pre-fill and error list features. (_Hint:
     Try using a partial to cut down on copy/pasting!_)
 
 6.  Allow deleting songs with a link, using `link_to`. Check out the [official

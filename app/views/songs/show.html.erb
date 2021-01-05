@@ -1,0 +1,18 @@
+
+<label>title</label>
+<%= @song.title%><br>
+
+<label>released</label>
+<%= @song.released%><br>
+
+<label>release year</label>
+<%= @song.release_year%><br>
+
+<label>artist name</label>
+<%= @song.artist_name%><br>
+
+<label>genre</label>
+<%= @song.genre%><br>
+
+<%= button_to "Delete", song_path(@song), method: :delete %>
+<%= link_to "Edit", edit_song_path(@song) %>
